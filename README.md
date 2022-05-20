@@ -1,24 +1,52 @@
-# README
+# My Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My portfolio website to show case prefection to the world
 
-Things you may want to cover:
+#### App Screenshot
+<img src="./app_screenshot.png" alt="My Protfolio" />
 
-* Ruby version
+### Live Demo
+<!-- <a href="https://ishmaelkargbo.github.io/my-portfolio">Todo App</a> -->
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby
+- Rails
+- React
+- Tailwindcss
+- Styled Components
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
 
-* How to run the test suite
+- Clone this repository to your local machine
+`git clone https://github.com/IshmaelKargbo/my-portfolio.git`
+- Go to the project filder
+`cd my-portfolio`
+- Install the required bundle
+`bundle install`
+- Setup your database but you need to add to db username and password in the database.yml in the config folder and the run the script
+`rails db:setup`
+`rails db:migrate`
+`rails db:seed`
+- Run the app on development server
+`bin/dev`
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Ishmael Kargbo**
 
-* ...
+- GitHub: [@githubhandle](https://github.com/ishmaelkargbo)
+- Twitter: [@twitterhandle](https://twitter.com/ishodev)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ishmael-kargbo-503660169)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/IshmaelKargbo/my-portfolio/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
