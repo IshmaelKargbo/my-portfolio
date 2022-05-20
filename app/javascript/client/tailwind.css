@@ -10,7 +10,7 @@
     border-color: #ffc62b;
 }
 
-.hover\:bg-sec:hover {
+.hover\:border-sec:hover {
     border-color: #e1ae22;
 }
 
@@ -59,9 +59,17 @@ body {
     background: #0b1930;
     color: #818ea8;
     font-family: Calibre, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .no-select {
     user-select: none;
+}
+
+.lb-m {
+    margin-left: -1.8px;
+}
+
+.jt-p {
+    padding-top: 5px;
 }

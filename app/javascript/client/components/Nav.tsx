@@ -33,7 +33,7 @@ export const Nav = () => {
                             <Navlink title="Work" count="03" to="/projects" />
                         </li>
                         <li>
-                            <Navlink title="Contact" count="04" to="/conatact" />
+                            <Navlink title="Contact" count="04" to="/contact" />
                         </li>
                         <li>
                             <button className="border-sec border text-sec py-2 font-head text-sm px-4 rounded-md hover:bg-orange-200 hover:bg-opacity-10"><span>Resume</span></button>
