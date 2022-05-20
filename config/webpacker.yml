@@ -1,5 +1,7 @@
 # Note: You must restart bin/webpack-dev-server for changes to take effect
 
+resolved_paths: ['app/javascript/client/images']
+
 default: &default
   source_path: app/javascript
   source_entry_path: packs
@@ -73,7 +75,6 @@ development:
       'Access-Control-Allow-Origin': '*'
     watch_options:
       ignored: '**/node_modules/**'
-
 
 test:
   <<: *default
