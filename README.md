@@ -1,6 +1,6 @@
 # My Portfolio
 
-My portfolio website to show case my prefection to the world
+My portfolio website to show case my profession to the world
 
 #### App Screenshot
 <img src="./app_screenshot.png" alt="My Protfolio" />
