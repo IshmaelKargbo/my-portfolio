@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-prim {
+    background-color: #0b1930;
+}
+
+.border-sec {
+    border-color: #ffc62b;
+}
+
+.hover\:bg-sec:hover {
+    border-color: #e1ae22;
+}
+
+.border-alt {
+    border-color: #818ea8;
+}
+
+.text-sec, .hover\:text-sec:hover {
+    color: #ffc62b;
+}
+
+.title-text {
+    font-size: 88px;
+}
+
+.sub-text {
+    font-size: 70px;
+}
+
+.text-v {
+    writing-mode: vertical-rl;
+}
+
+.text-space {
+    letter-spacing: 1px;
+}
+
+.sm-text {
+    font-size: 13px;
+}
+
+.xs-text {
+    font-size: 11px;
+}
+
+.text-head {
+    color: #c5cee3;
+}
+
+.font-head {
+    font-family: 'SF Mono', Courier, monospace;
+}
+
+body {
+    background: #0b1930;
+    color: #818ea8;
+    font-family: Calibre, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,3 @@
+web: bin/rails server -p 3000
+tailwind: npx tailwindcss -i app/javascript/client/tailwind.css -o app/javascript/client/App.css --watch
+watch: bin/webpack-dev-server
