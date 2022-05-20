@@ -21,12 +21,12 @@ export const Layout = ({ children }) => {
 
 export const Title = ({title, count}) => {
     return (
-        <div className="flex items-center mb-10 space-x-10 pr-32">
+        <div className="flex items-center mb-10 space-x-10">
             <div className="flex space-x-2">
                 <p className="text-xl font-head text-sec no-select">{count}.</p>
                 <p className="text-3xl font-semibold text-head whitespace-nowrap">{title}</p>
             </div>
-            <div className="border-t h-1 w-full border-gray-700"></div>
+            <div className="border-t h-1 border-gray-700 w-72"></div>
         </div>
     )
 }

@@ -1,11 +1,13 @@
 import React from "react"
-import { Layout } from "../components/Layout";
+import { Layout, Title } from "../components/Layout";
 
 export const Projects = () => {
     return (
         <Layout>
             <div>
-                Project
+                <div>
+                    <Title title='Some Things I’ve Built' count='02' />
+                </div>
             </div>
         </Layout>
     );
