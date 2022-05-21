@@ -28,8 +28,8 @@ export const About = () => {
                     <p className="mb-5">Here are a few technologies I’ve been working with recently:</p>
                     <div className="flex flex-wrap">
                         {
-                            techs.map((tech) => (
-                                <div className="w-1/2 mb-2">
+                            techs.map((tech, key) => (
+                                <div key={key} className="w-1/2 mb-2">
                                     <Tech name={tech} />
                                 </div>
                             ))

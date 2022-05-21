@@ -8,7 +8,7 @@ export const Layout = ({ children }) => {
             <header className="py-6">
                 <Nav />
             </header>
-            <main className="container mx-auto pt-16 flex-1 flex">
+            <main className="container mx-auto flex-1 flex items-center">
                 <Connect />
                 <div className="flex-1 px-28">
                     {children}

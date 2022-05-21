@@ -1,5 +1,9 @@
 import React from "react"
 import { Layout } from "../components/Layout";
+import { About } from "./About";
+import { Contact } from "./Contact";
+import { Jobs } from "./Jobs";
+import { Projects } from "./Projects";
 
 export const Home = () => {
     return (

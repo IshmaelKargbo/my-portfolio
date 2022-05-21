@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --navy-shadow: rgba(2,12,27,0.7);
+}
+
 .bg-prim {
     background-color: #0b1930;
+}
+
+.shadow-p {
+    box-shadow: rgb(2 12 27 / 70%) 0px 5px 20px 3px;
+}
+
+.bg-sec {
+    background: #ffc62b;
 }
 
 .border-sec {
